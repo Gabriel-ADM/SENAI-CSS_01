@@ -1,0 +1,98 @@
+/* Fifth stylesheet */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+    background-image: url(wallpaper.jpg);
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top {
+    height: 150px;
+    background: none;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.item-menu {
+    background: none;
+    list-style-type: none;
+    padding: 10px;
+    cursor: help;
+}
+
+.item-menu:hover {
+    background-color: purple;
+    color: white;
+}
+
+.item-menu:nth-child(5) {
+    background-color: purple;
+    color: #ffffff;
+    font-style: italic;
+}
+
+#menubar {
+    width: 150px;
+    float: left;
+}
+
+#top h1,
+#top p,
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+
+#top,
+#sidebar,
+#bottom,
+.item-menu {
+    border-radius: 30px;
+    margin: 4px;
+}
+
+#main {
+    padding: 10px;
+    margin: 0 210px;
+    opacity: .8;
+    color: darkblue;
+    font-size: large;
+}
+
+#sidebar {
+    background-color: black;
+    color: lightpink;
+    padding: 10px;
+    width: 200px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+#bottom {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    line-height: 14px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

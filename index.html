@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>First CSS page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.svg" />
+    <link rel="stylesheet" href="styleSheet01.css">
+    <link rel="stylesheet" href="styleSheet02.css">
+    <link rel="stylesheet" href="styleSheet03.css">
+    <link rel="stylesheet" href="styleSheet04.css">
+    <link rel="stylesheet" href="styleSheet05.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="top">
+            <h1>Welcome to the initial page</h1>
+            <p>Use the menu to choose differents stylesheets</p>
+        </div>
+        <div class="wrapper">
+            <div id="menubar">
+                <ul id="menulist">
+                    <li ongit remote add origin git@github.com:Gabriel-ADM/SENAI-CSS_01.gitlick="style01()" class="item-menu">Stylesheet 1</li>
+                    <li onclick="style02()" class="item-menu">Stylesheet 2</li>
+                    <li onclick="style03()" class="item-menu">Stylesheet 3</li>
+                    <li onclick="style04()" class="item-menu">Stylesheet 4</li>
+                    <li onclick="style05()" class="item-menu">Stylesheet 5</li>
+                    <li onclick="noStyle()" class="item-menu">No stylesheet</li>
+                </ul>
+            </div>
+            <div id="main">
+                <h1>Differents stylesheets in the same page</h1>
+                <p>This is a demonstration of how differents stylesheets can change yours page's HTML layout.
+                    You can change this page's layout selecting differents stylesheet in the menu or
+                    following one of the links belows<br>
+                    <a onclick="style01()" href="#">Stylesheet 1,</a>
+                    <a onclick="style02()" href="#">Stylesheet 2,</a>
+                    <a onclick="style03()" href="#">Stylesheet 3,</a>
+                    <a onclick="style04() " href="#">Stylesheet 4,</a>
+                    <a onclick="style05() " href="#">Stylesheet 5.</a>
+                </p>
+                <h2>No style</h2>
+                <p>This page uses DIV elements to get together differents sections of the HTML page. Click here to see
+                    how
+                    it looks the page without stylesheets:
+                    <br>
+                    <a onclick="noStyle()" href="#">No stylesheets.</a>
+                </p>
+            </div>
+
+            <div id="sidebar">
+                <h3>Side bar
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet
+                    dolore magna aliquam erat volutpat.
+
+                </p>
+            </div>
+        </div>
+        <div id="bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt
+            ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et
+            iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+            facilisi.
+        </div>
+    </div>
+</body>
+
+</html>
